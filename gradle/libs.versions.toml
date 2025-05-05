@@ -1,7 +1,6 @@
 [versions]
 agp = "8.9.2"
-kotlin = "1.9.0"  # Update this to your actual Kotlin version
-compose = "1.6.0"  # Add the Compose version (use your actual version)
+kotlin = "2.1.20"  # Update with your desired Kotlin version
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
@@ -21,4 +20,6 @@ constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayo
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.compose", version = "1.5.3" }  # Compose plugin with explicit version
